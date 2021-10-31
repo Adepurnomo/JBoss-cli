@@ -1,0 +1,20 @@
+@echo off
+REM README!!! EDIT CONTOH DI BAWAH, KALO UDAH -> SAVE, KEMUDIAN CLOSE NOTEPAD INI, SETELAH DI CLOSE AKAN OTOMASI TEREKSEKUSI !!!
+set "NOPAUSE=true"
+
+
+REM KOLOM EDIT --------------------------------------------------------------------------------------------------------------
+
+call E:\jboss-eap-master\bin\jboss-cli.bat --connect --command="/system-property=PROPERTY_NAME:add(value=PROPERTY_VALUE)
+
+REM KOLO EDIT --------------------------------------------------------------------------------------------------------------
+
+
+
+REM JANGAN LUPA SAVE YEEEE
+echo.----------------------------
+echo.PROPERTY UDEH DI TAMBAHIN YA
+echo.----------------------------
+timeout 15
+exit
+:end
